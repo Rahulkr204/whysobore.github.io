@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: 'Murderer';
+  src: url('../fonts/ym.ttf');
+  }
 
 
 body {
@@ -14,6 +17,8 @@ body {
 background-image: url(https://cdn.designmaz.net/wp-content/uploads/2014/10/ceystalhorizon.png);
 background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 .logo{
   margin: 3px;
@@ -23,19 +28,19 @@ background-size: 100% 100%;
 
 }
 .name{
-  font-size: 50px;
+  font-size: 65px;
   text-align: center;
   /*background-color: #a0a0a0;*/
   margin-top: -5px;
   color: #00BCD4;
   padding: 0;
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: "Murderer";
 }
 .say{
     font-size: 18px;
     text-align: center;
     /*background-color: #a0a0a0;*/
-    margin-top: -40px;
+    margin-top: -70px;
     color: #80D8FF;
     padding: 0;
 }
